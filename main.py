@@ -18,7 +18,7 @@ def create2darray(r,c):
 
 
 def sort2darray(arr, c):
-    return [x for x in sorted(arr, key=lambda x: x[0:c])]
+    return [x for x in sorted(arr, key=lambda x: x[c])]
 
 arr = create2darray(5,5)
 print(arr)
